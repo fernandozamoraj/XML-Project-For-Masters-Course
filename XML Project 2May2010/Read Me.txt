@@ -1,0 +1,16 @@
+Description of Folders
+
+=====Executables=====
+Contains Necessary Executables to create the inventory XML document
+
+=====Printable Deliverables====
+These documents are all the associated documents taht need to be turned into the book that is required for the project.
+
+
+====Source Code==============
+This folder contains the source code for the Picasso Inventory System. It contains a read me file with information on what tools are necessary.
+
+
+====XML Artifacts===============
+The XML Artifacts folder contains all of the XML Deliverables that are part of this project to included the XML files for the inventory system as well as the XML files for the Paper itself.
+

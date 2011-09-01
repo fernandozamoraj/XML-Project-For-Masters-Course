@@ -1,0 +1,5 @@
+Everything Necessary for the Paper is in the PDF Files to include the main paper along with the Appendices.
+
+The XML Artifacts in their raw format are contained within the folders.
+
+The PDF version of the paper is the direct output from the HTML file contained within the artifacts folder.  The word document is a clone to enable editing amongst the group.  All the actual content is created from the XML files and not the word document.  The word document is actually copied and pasted from the HTML output and then edited.

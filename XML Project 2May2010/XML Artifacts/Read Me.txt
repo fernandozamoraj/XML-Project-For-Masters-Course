@@ -1,0 +1,5 @@
+The inventory System folder contains the XML and XSD XSL Files associated with the Inventory System.  There is a viewable HTML file that be used to view the data.  These are all the files needed to make the inventory xml files work.
+
+
+
+The Paper folder contains all the XML files associated with the paper to include the output HTML file along with the XML, XSL and XSD files.

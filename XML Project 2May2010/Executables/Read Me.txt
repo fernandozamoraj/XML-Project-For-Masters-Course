@@ -1,0 +1,2 @@
+To Run the picasso Inventory System
+Run the PicassonInventorySystem.exe.  That is the one with the picture frame icon.

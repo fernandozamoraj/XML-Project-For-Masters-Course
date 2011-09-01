@@ -1,0 +1,558 @@
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Picasso's Products Inventory</title>
+		<style type="text/css">  
+            <!--  body {  
+            width: 800px;
+             font-family:"Times New Roman", Times, serif;
+             margin: 30px;
+              }  
+              
+            
+            a {
+                text-decoration: none;  
+            } 
+            d {
+               font-size: 140%; 
+            }   
+                    
+            p
+            {
+        width: 800px;
+        font-size: 140%;
+         line-height: 2.0;
+         text-indent: 0px;
+            }
+
+           h1.break
+            { 
+                page-break-before: always;
+            }
+
+            h3.figureheader
+            {
+        width: 800px;
+        font-size: 140%;
+        line-height: 2.0;
+        text-align:left;
+        text-indent: 0px;        
+            }     
+            
+            h2
+            {
+        width: 800px;
+        font-size: 140%;
+        line-height: 2.0;
+        text-align:left;
+            }     
+            
+            
+            h1
+            {
+        width: 800px;
+        font-size: 140%;
+        line-height: 2.0;
+        text-align: center;
+            }
+            
+            p.projectmembers
+            {
+        width: 800px;
+        text-align:center;
+         text-indent: 0px;
+         line-height: 1.0;
+            }
+            
+            p.bibliography
+            {
+                width: 800px;
+                font-family:"Courier New", Times, serif;
+                font-size: 100%;
+                text-indent: 0px;
+            }
+            
+            p.bibliographyheader
+            {
+                width: 800px;
+                font-family:"Courier New", Times, serif;
+                font-size: 100%;
+                text-indent: 0px;
+        text-align: center;
+        page-break-before: always
+            }
+
+      *.break
+      {
+        page-break-before: always;              
+      }  
+            
+      li
+      {
+        line-height: 2.0;
+        font-size: 130%;
+      }  
+            li.bulleteditem_level
+            {
+         text-indent: 100px;
+            }
+            
+            li.bulleteditem_level1
+            {
+         text-indent: 100px;
+            }
+            
+            li.bulleteditem_level2
+            {
+         text-indent: 120px;
+            }
+            
+            li.bulleteditem_level3
+            {
+         text-indent: 140px;
+            }
+            
+            li.bulleteditem_level4
+            {
+         text-indent: 160px;
+            }
+            
+            li.bulleteditem_level5
+            {
+         text-indent: 180px;
+            }
+            
+            image.figure
+            {
+        width: 600px;
+        height: 450px;
+            }
+            
+            div.figuremargin
+            {
+                width: 750px;
+                text-align: center;
+                margin: 25px;            
+            }
+            
+            div.spacer
+            {
+        width: 600px;
+        height: 70px;
+            }
+            
+           div.titlespacer
+            {
+                width: 600px;
+                height: 300px;
+            }
+            
+            div.sectionspacer
+            {
+                width: 600;
+                height: 30px;              
+            }
+            -->            
+            </style>
+	</head>
+	<body>
+		<div class="titlespacer"></div>
+		<h1>PICASSO'S INVENTORY SYSTEM:</h1>
+		<h2 class="subsectionheader">A PROJECT THAT LEVERAGES XML TO CREATE, SAVE, QUERY, AND DISPLAY A SYSTEM’S INVENTORY</h2>
+		<div class="spacer"></div>
+		<div class="titlepagemargin">
+			<p class="projectmembers">Fernando Zamora</p>
+			<p class="projectmembers">Letitia Murdoch</p>
+			<p class="projectmembers">Manfred Ayers</p>
+			<p class="projectmembers">Mark Thompson</p>
+			<p class="projectmembers">Department of Business</p>
+			<p class="projectmembers">CIS 545 Extensible Markup Language</p>
+			<p class="projectmembers">May 1, 2010</p>
+		</div>
+		<div class="spacer"></div>
+		<h1 class="break">Abstract</h1>
+		<p>
+          We wrote this paper as part of a project for an <b>XML</b> class at the graduate level.  
+          The paper consists of three major parts; <b>XML Creation</b> (including XSDs, CSS, XML), <b>Data Entry Application</b>, and a <b>Paper describing the effort</b>.
+            The project is broken down into two major subprojects; the actual inventory for a fictional business and the paper that describes the
+            our process details, as well as the schema that this paper will ultimately describe the elements of this paper.  This paper is only a portion of an entire project.              
+        </p>
+		<p>
+        This project consists of the following artifacts that go along with this paper:  
+      </p>
+		<ul>
+			<li class="bulleteditem_level1">Paper Related Artifacts</li>
+			<li class="bulleteditem_level2">ProjectPaper.xml</li>
+			<li class="bulleteditem_level2">ProjectPaper.xsd</li>
+			<li class="bulleteditem_level2">ProjectPaper.html</li>
+			<li class="bulleteditem_level2">PaperToHtml.xsl</li>
+			<li class="bulleteditem_level2">Images Folder with the following images</li>
+			<li class="bulleteditem_level3">chicagopaperschema.png</li>
+			<li class="bulleteditem_level3">htmlscreenshot.png</li>
+			<li class="bulleteditem_level3">inventoryschemahighlevel.png</li>
+			<li class="bulleteditem_level3">inventoryscreen.png</li>
+			<li class="bulleteditem_level3">vendorscreen.png</li>
+			<li class="bulleteditem_level3">catalogscreen.png</li>
+			<li class="bulleteditem_level1">Inventory Related XML Artifacts</li>
+			<li class="bulleteditem_level2">PicassosInventory.xsl</li>
+			<li class="bulleteditem_level2">PicassosInventory.xml</li>
+			<li class="bulleteditem_level2">PicassosInventory.xsd</li>
+			<li class="bulleteditem_level2">PicassosInventory.html</li>
+			<li class="bulleteditem_level2">Images folder with the following:</li>
+			<li class="bulleteditem_level3">PicassoLogo.png</li>
+		</ul>
+		<div class="sectionspacer"></div>
+		<div class="introduction">
+			<h1 class="break">Introduction</h1>
+			<h2>Picasso's Frame Shop
+      </h2>
+			<p>
+      This paper is part of a project that will demonstrate how to use Extensible Markup Language <b>(XML)</b> to maintain a small inventory system for a small business.  The objectives of this project are to create the data schemas, the XML documents as well as the data entry system to create and modify the XML document.  Also to be included as part of this project, is a technical document that describes the project and process in creating the inventory system.  A requirement for the technical document is that it must be written in a way that it can be treated as XML data.  This way the XML document can be formatted by an Extensible Stylesheet Language <b>(XSL)</b> document an processing it using what is known as XSL Transformations <b>(XSLT)</b>.  This paper will address how the users of this system will be able to create, share, modify and also query the inventory data.  Additionally, this paper will address how the decisions were made the creation all of the artifacts.  This paper will describe the small business that was targeted by the XML data for this project and why.  Finally this paper will briefly described the schemas, content and XSL necessary to transform this paper into a properly formatted <i>Chicago Manual of Style</i> paper
+      </p>
+			<p>
+Since XML is well suited to maintain a small hierarchical database, it has been chosen as the data persistence of choice for this project. Because this paper is a requirement for an XML class the requirements met by this paper were those provided to us.  Nevertheless, XML allows for data definition in the form of Document Type Definition <b>(DTD)</b> documents and XML Schema Definition <b>(XSD)</b> files.  We decided early on that it would be easier to stick with one type of schema language. Therefore the schema language chosen was XSD over DTD.  All of the schemas for this project are XSD files instead of DTD files.      
+      </p>
+			<p>
+        Like any other school project we had some level of freedom in the decision-making process.  Some of this freedom was the ability to choose a small business of our liking.  Because Fernando has extensive experience in the frame making business, we decided to go with a hypothetical small frame shop as our business.  Like all hypothetical business we needed a name for our business and since the business was somewhat related to the art world, we decided to call it Picasso’s.  Therefore, the inventory system was named the Picasso Inventory System.
+      </p>
+			<p>
+        The inventory system is a starting point, rather than a complete solution to the inventory system needs of Picasso frame shop. This is true of the schemas provided in this presentation as well. With that disclaimer out of the way, after careful analysis, the schemas results meet the factors important in maintaining adequate inventory within the shop. The design will allow the Picasso shop to minimize downtime by maintaining adequate inventory, determining pricing requirements, and maintaining our suppliers’ contact information.      
+      </p>
+		</div>
+		<div class="sectionspacer"></div>
+		<h1>
+      The Picasso’s Frame Shop Business
+      </h1>
+		<div class="sectionspacer"></div>
+		<div class="subsectiondiv">
+			<h2>
+          Description of the Business
+        </h2>
+			<p>
+          Picasso’s Frame Shop is a small family owned and operated business.  The business provides custom framing needs for the Temple, Killeen and surrounding areas.  Custom framing provides a higher quality and more elegant solution as well as higher variety for any framed artifact than traditional off-the-shelf frames and mats.  Although off-the-shelf frames meet the requirements for most photographs and many posters, custom framing provides many benefits that off-the-shelf frames and mats cannot provide.  Among these are:
+        </p>
+			<ul>
+				<li class="bulleteditem_level">Non-Standard Frame Sizes</li>
+				<li class="bulleteditem_level">Higher Selection of Moulding</li>
+				<li class="bulleteditem_level">Necessary Protection of High Dollar Prints and Photographs</li>
+				<li class="bulleteditem_level">Custom mat cuts not available with off-the-shelf mats</li>
+				<li class="bulleteditem_level">Personalized Color Schemes to fit the framed artifact best</li>
+				<li class="bulleteditem_level">Framing of non-traditional artifacts such as baseballs, flags, awards etc</li>
+			</ul>
+			<p>Picasso’s cuts every mat, moulding, and sheet of glass to customer desires specifications. For these reasons, the Picasso Frame Shop must be prepared to stock the most common supplies and be able to provide a high selection of custom ordered supplies. Because custom framing competition is quite fierce in the Killeen/Temple area, Picasso’s must maintain the right quantities of the most common supplies. This is all in an effort to provide a quick and efficient turnaround for all orders.  
+        </p>
+			<p>
+          Most orders have a common turnaround span of five days from order to delivery.  In the case where a special order is required, the turnaround time can be as much as two weeks longer than normal.  For that reason, Picasso’s must maintain a high selection of items. This also helps reduce the number of custom vendor orders.  This is all in effort to keep customers coming back to Picasso’s. This lets the customers know that their needs will be met with a high degree of quality and punctuality.  At the same time Picasso’s must also identify those items that simply do not sell well or have been discontinued by the vendor.
+        </p>
+			<p>
+        Custom framing requires a high degree of precision in pricing. This is so that store can be competitive, yet at the same time have the capability to price its services at a profit.  This means that Picasso’s must take all costs incurred into account in order to price the items adequately.  The cost of these supply items is a significant consideration of those costs.
+        </p>
+		</div>
+		<div class="sectionspacer"></div>
+		<div class="subsectiondiv">
+			<h2>
+        Framing Equipment and Supplies
+        </h2>
+			<p>
+        The delivery of a custom framing order requires the use of several pieces of equipment and the consumption of several supplies.  The equipment, composed mostly of machines, is maintained by employees.  The adequate inventory of the parts and supplies consumed by these machines, must be maintained on hand to prevent any loss of productivity.
+        </p>
+			<p>
+           Picasso’s equipment consists of the following machines:
+        </p>
+			<ul>
+				<li class="bulleteditem_level">3 Mat Cutters - Fletcher</li>
+				<li class="bulleteditem_level">1 Moulding Chopper </li>
+				<li class="bulleteditem_level">1 Moulding Miter Saw</li>
+				<li class="bulleteditem_level">1 Computerized Mat Cutting Machine – Wizard Model 8000</li>
+				<li class="bulleteditem_level">1 Oval Mat/Glass Cutter</li>
+				<li class="bulleteditem_level">1 Regular Glass Cutter</li>
+				<li class="bulleteditem_level">Dry Mount Press</li>
+				<li class="bulleteditem_level">2 Miter Vice</li>
+				<li class="bulleteditem_level">Other hand tools such as tape guns, multi-point drivers, wire cutters, screw drivers, utility knives, pencils, etc,</li>
+			</ul>
+			<p>
+             The equipment orders do not occur on a regular basis like the supplies, but the parts that are subject to heavy wear and tear are. Therefore, Picasso’s must have the ability to maintain adequate inventory of the parts. These parts include but are not limited to the following:
+         </p>
+			<ul>
+				<li class="bulleteditem_level">Brads for the miter saws</li>
+				<li class="bulleteditem_level">Brads for the joiner (underpinner)</li>
+				<li class="bulleteditem_level">Blades for the mat cutters</li>
+				<li class="bulleteditem_level">Points for the multi-point drivers</li>
+				<li class="bulleteditem_level">Wheel Blades for the glass cutter</li>
+			</ul>
+			<p>Additionally Picasso’s must maintain an adequate selection of Mats, Glass, and Molding.  These items are usually the ones that the customer has the options to choose from.   While there are no exact levels of prediction as to what items the customer will choose next, it is important to attempt to stock the items that are most likely to be chosen. Of equal importance is the need to maintain enough variety so that the customer has alternate options.  The supplies to be maintained in inventory include the following:
+        </p>
+			<ul>
+				<li class="bulleteditem_level">Mats varied by different colors and types
+            </li>
+				<li class="bulleteditem_level">Molding – This is the actual pieces used for the frame</li>
+				<li class="bulleteditem_level">Glass – There are several types and sizes</li>
+				<li class="bulleteditem_level">Foam Core Backing</li>
+				<li class="bulleteditem_level">Glue</li>
+				<li class="bulleteditem_level">Glass Cleaner</li>
+				<li class="bulleteditem_level">Hanging Wire and Screws</li>
+				<li class="bulleteditem_level">Pencils</li>
+				<li class="bulleteditem_level">Other miscellaneous items</li>
+			</ul>
+			<p>
+Maintaining these items in adequate quantities is necessary for successful operation of the shop. One caveat is that that not all purchases are individual item purchases. Some items sell individually while others sell in boxes and by different measures such as by the foot. These were all considerations in designing our system.        
+        </p>
+		</div>
+		<div class="sectionspacer"></div>
+		<div class="subsectiondiv">
+			<h2>Vendors</h2>
+			<p>In a perfect world it would be ideal to purchase all equipment and supplies from one vendor.  This would allow us to maintain one contact and deal with only one vendor.  However, in the real world not all vendors are created alike.  Vendors differ in various aspects.  These aspects include location distance, product types and pricing, just to name a few.  As an example one vendor may carry a certain item that the other vendor carries but the price from one vendor to the other differs significantly.  As another example, one vendor may focus on supplies while another may focus on equipment and equipment parts.  Additionally one vendor may be located closer, thereby providing quicker and cheaper deliveries.  At other times one vendor may be out of stock on a particular item while another vendor is plentifully stocked.  All these examples and explanations are used only make the point that Picasso’s needs to do business with several vendors and also maintain contact information for those vendors.
+        </p>
+		</div>
+		<div class="sectionspacer"></div>
+		<h1>
+        The Inventory System
+      </h1>
+		<div class="sectionspacer"></div>
+		<div class="subsectiondiv">
+			<h2>
+          Description
+        </h2>
+			<p>
+           Picasso’s inventory system consists of several artifacts that allow all of them, together, to operate as a single inventory system. The artifacts within the system are the picassosinventory.xsd, the XML data, picassoinventory.xsl stylesheet to enable viewing of the system through a browser.  Also included, as part of the system, is the <b>Picasso Inventory System</b> which enables the <b>CRUD</b> (Create, Update, Read, Delete) operations on the data.
+        </p>
+			<p>
+Rather than diving deep into the technical details of the data definition we will explain the schema in plain and clear English.  We identified the need to maintain information on each significant element of the inventory system.  We also identified their significant attributes.  Below is a list that is structured in a hierarchical format of the significant elements with their attributes:        
+        </p>
+			<ul>
+				<li class="bulleteditem_level">Vendors</li>
+				<li class="bulleteditem_level2">Id</li>
+				<li class="bulleteditem_level2">Name</li>
+				<li class="bulleteditem_level2">ContactPerson</li>
+				<li class="bulleteditem_level2">Phone Number</li>
+				<li class="bulleteditem_level2">Comments</li>
+				<li class="bulleteditem_level2">Address</li>
+				<li class="bulleteditem_level3">Street</li>
+				<li class="bulleteditem_level3">City</li>
+				<li class="bulleteditem_level3">State</li>
+				<li class="bulleteditem_level3">Zip</li>
+				<li class="bulleteditem_level">Catalog Item</li>
+				<li class="bulleteditem_level2">Id</li>
+				<li class="bulleteditem_level2">Vendor Id</li>
+				<li class="bulleteditem_level2">Unit Cost</li>
+				<li class="bulleteditem_level2">Category</li>
+				<li class="bulleteditem_level3">Single Item</li>
+				<li class="bulleteditem_level3">Boxed Item</li>
+				<li class="bulleteditem_level4">Quantity in Box</li>
+				<li class="bulleteditem_level4">Box Cost</li>
+				<li class="bulleteditem_level3">Volume Item</li>
+				<li class="bulleteditem_level4">Unit of Measure</li>
+				<li class="bulleteditem_level4">Minimum Quantity</li>
+				<li class="bulleteditem_level">Catalog Item Id</li>
+				<li class="bulleteditem_level2">Comments</li>
+				<li class="bulleteditem_level2">Inventory Location</li>
+				<li class="bulleteditem_level3">Name</li>
+				<li class="bulleteditem_level3">Description</li>
+			</ul>
+			<p>
+With these needs in mind, we created the XSD schema located in appendix A.       
+        </p>
+			<p>
+In the tree-like structure of elements identified above, we aimed to keep our data definition simple and to the point.  We also took into consideration that once in production the schema could possibly have different requirements.  We deferred the finer detail schema decissions downstream in the schedule.  We determined that every entity within our schema required an ID attribute.  This is so that the system would avoid data conflicts based on other attributes.  Therefore all of our entities identified above have an ID.  Additionally each ID within the document is unique.  This was also done to reduce the nesting of entities within other elements.  Instead the entities are referenced by ID from the other entities.        
+        </p>
+		</div>
+		<div class="sectionspacer"></div>
+		<div class="subsectiondiv">
+			<h2>
+          Vendor Entity
+        </h2>
+			<p>
+          The starting point for our data system is the vendor. The reason is that without a vendor there is no product. The vendor in our system carries some basic attributes like name and address. We also deemed it important to store the contact information. This led us down the path of placing the contact person and phone number. We did not think that it was necessary to break down the contact name any further than that. We did acknowledge that we would miss a significant attribute. Therefore, we decided to add the comments attribute. The comments attribute is important enough to exist in every entity within the system. That is why all of the entities have a comments attribute. The comments attribute is a catchall attribute that allows for entering comments about an entity. 
+        </p>
+		</div>
+		<div class="sectionspacer"></div>
+		<div class="subsectiondiv">
+			<h2>
+          Catalog Item
+        </h2>
+			<p>
+          The catalog item is the actual product that we are concerned with in our system.  Even though we acknowledged the possibility that two of the same catalog items can exist from two totally different vendors, we determined that each item has enough attribute differences to be separated by vendor. Among these differences are the product assigned vendor id, the packaging and the slight change in attributes.  A possible consideration for the future is the concept of somehow tagging an item so that we can determine items by tag even if they are from separate vendors.  This is a concept that would basically assign the same product id to an item even though the item can come from two different vendors.  At this point this is only concept that requires further evaluation. 
+        </p>
+			<p>
+          The catalog item has something known as the “vendor assigned product id”.  This vendor assigned product id is based on the fact that vendors identify items by id’s within their catalog.  While it is unlikely, it is possible that two vendors may carry the same vendor assigned product id for one of Picasso’s inventory products.  For that reason the same vendor assigned product id can exist within different products so long as the products are from different vendors.  The other important attributes for the catalog id are the description and the unit cost.
+        </p>
+			<p>
+ We also recognize that how an item is packaged can affect the category placement. Items can be sold individually, boxed or by some other measure which we decided to call volume. While the hierarchical category above identifies the category as an attribute of the catalog item, in actuality we decided to separate the catalog items into different elements:  Catalog Item, Boxed Item, and Volume Item. We made this determination to avoid forcing one element to share non-required properties (i.e. properties that exist if within one category but not within another). The boxed item, for example, has a box cost and a unit cost. While the Catalog Item (single item) only has the unit cost requirement. Additionally the Volume Item has the requirement to determine the unit of measure such as feet, gallons, etc.         
+        </p>
+		</div>
+		<div class="sectionspacer"></div>
+		<div class="subsectiondiv">
+			<h2>
+          Inventory Item  
+        </h2>
+			<p>Once we had the vendors and catalog items in place, the stage was set for our prime entity – the inventory item.  For the inventory item we need to know all of it's catalog item related attributes as well as the physical location.  Since the catalog item is tied to the inventory item this can also reveal, not only all catalog information, but also all of the vendor information.  For the inventory items, Picasso’s needs to know the quantity on hand as well as the Re-Order Point (ROP) and the Re-Order Quantity (RO).  The ROP is simply the point that, when reached, triggers a re-order action on the part of Picasso’s staff.  The RO is the quantity that must be ordered when that action is triggered.    
+      </p>
+			<p>
+        An important mention that cuts across all of our entities is that the ID’s of each entity are and must be unique within the document. Also, we decided to not model our entities after real-world domain objects of the custom framing world.  In other words we did not head down the path of creating a mat element, or a glass element or a molding element for that matter.  We determined that it was better to make it generic and flexible enough to work with any inventory system.  This decision was also influed by the numerous types of parts and supplies available in the framing business.  This is also the reason that this data definition could work for many other business models.
+      </p>
+		</div>
+		<div class="sectionspacer"></div>
+		<div class="subsectiondiv">
+			<h2>
+          Gluing It All Together
+        </h2>
+			<p>
+        Therefore, everything in the schema is in place but the pieces remain disjointed. Driven by the fact that a well-formed XML document requires a root element we need some additional elements to put all the pieces together into one big orderly tree. For this, we created the additional elements. Below is a description of the tree as well as the XML Spy graphical view of the tree.
+
+        </p>
+			<ul>
+				<li class="bulleteditem_level">Product Graph</li>
+				<li class="bulleteditem_level2">Catalog</li>
+				<li class="bulleteditem_level3">Catalog Items</li>
+				<li class="bulleteditem_level4">Catalog Item</li>
+				<li class="bulleteditem_level3">Boxed Items</li>
+				<li class="bulleteditem_level4">Boxed Item</li>
+				<li class="bulleteditem_level3">Volume Items</li>
+				<li class="bulleteditem_level4">Volume Item</li>
+				<li class="bulleteditem_level2">Inventory</li>
+				<li class="bulleteditem_level3">Inventory Items</li>
+				<li class="bulleteditem_level3">Locations</li>
+				<li class="bulleteditem_level2">Suppliers</li>
+				<li class="bulleteditem_level3">Vendor</li>
+			</ul>
+			<div class="figuremargin">
+				<div><img class="figure" alt="InventorySchemaHighLevel.png" src="./images/InventorySchemaHighLevel.png"></div>
+				<h3 class="figureheader">Figure 1. Inventory Schema High Level</h3>
+			</div>
+		</div>
+		<div class="sectionspacer"></div>
+		<h1>The Picasso Inventory System</h1>
+		<div class="sectionspacer"></div>
+		<div class="subsectiondiv">
+			<h2>Data Entry Application</h2>
+			<p>
+Once we created our database definition, we also had to tackle the concept of creating a simple data entry system. This was decided so that the user has an easy and efficient way of creating valid data. We will not delve into the fine-grained details of the system but we will point out that the database entry fully supports the data validation required by the products.xsd schema. The application code is in C# using the 3.5 .Net framework. The application design uses best practices, with a tiered approach. In this case, our three tiers included the following tiers: 
+          </p>
+			<ul>
+				<li class="bulleteditem_level">Database – In the form of an XML data file </li>
+				<li class="bulleteditem_level">Data Access Layer – The mechanism to read the file was file IO</li>
+				<li class="bulleteditem_level">The Model was in the form of Plain Old C-Sharp Objects (POCOs)</li>
+				<li class="bulleteditem_level">The UI Layer was in the form of a windows form with three tabs.</li>
+				<li class="bulleteditem_level"> This mean one tab for each entry.</li>
+			</ul>
+			<div class="figuremargin">
+				<div><img class="figure" alt="vendorscreen.png" src="./images/vendorscreen.png"></div>
+				<h3 class="figureheader">Figure 2. Vendor Screen</h3>
+			</div>
+			<div class="figuremargin">
+				<div><img class="figure" alt="catalogscreen.png" src="./images/catalogscreen.png"></div>
+				<h3 class="figureheader">Figure 3. Catalog Screen</h3>
+			</div>
+			<div class="figuremargin">
+				<div><img class="figure" alt="inventoryscreen.png" src="./images/inventoryscreen.png"></div>
+				<h3 class="figureheader">Figure 4. Inventory Screen</h3>
+			</div>
+			<p>
+            The Picasso Inventory System allows the creation of a new inventory database.  It allows all basic Create, Read, Update and Delete (CRUD) operations of each of the entities.For the sample output provided by the Picasso Inventory System please see appendix B.
+          </p>
+		</div>
+		<div class="sectionspacer"></div>
+		<div class="subsectiondiv">
+			<h2>The Inventory XSL Transformation</h2>
+			<p>
+            We decided to go with a simple transformation to transform our XML data into something readable that could display a report where all the vital information could easily be identified.  The report would simplify the inventory process and it would allow the user to pull up a vendor’s contact information.  Below is a sample of this report.
+          </p>
+			<div class="figuremargin">
+				<div><img class="figure" alt="htmlscreenshot.png" src="./images/htmlscreenshot.png"></div>
+				<h3 class="figureheader">Figure 5. Sample HTML Report after transformation</h3>
+			</div>
+			<p>
+          Presenting the information in this simple format did not come without its set of challenges.  Iterating through the elements was not the difficult part.  Amon these challenges were:
+          </p>
+			<ul>
+				<li class="bulleteditem_level">Ability to Display the vendor, unit price, and description</li>
+				<li class="bulleteditem_level">Alternating colors for rows</li>
+			</ul>
+			<p>
+          The reason these were challenges was that these attributes are stored in the catalog item receives only referenced by the inventory item. Adding to the problem is the dispersal of catalog items across three different paths of the XML tree: 
+          </p>
+			<ul>
+				<li class="bulleteditem_level">ProductGraph/Catalog/CatalogItems/CatalogItem</li>
+				<li class="bulleteditem_level">ProductGraph/Catalog/BoxedItems/BoxedItem</li>
+				<li class="bulleteditem_level">ProductGraph/Catalog/VolumeItems/VolumeItem</li>
+			</ul>
+			<p>
+          In retrospect, we would have been better off using a schema that wrapped the different catalog types for easier iteration like the list below:  
+        </p>
+			<ul>
+				<li class="bulleteditem_level">ProductGraph/Catalog/CatalogItems/CatalogItem/SingleItem</li>
+				<li class="bulleteditem_level">ProductGraph/Catalog/CatalogItems/CatalogItem/BoxedItem</li>
+				<li class="bulleteditem_level">ProductGraph/Catalog/CatalogItems/CatalogItem/VolumeItem</li>
+			</ul>
+			<p>This meant that the use of variables and functions was vital in retrieving the correct value.  In each of the cases there would always be one path of the tree that determined the value but in all cases it was unknown which one contained the value.  To accommodate we grabbed all three values from each of them and then called a function to determine which one had the value.
+          </p>
+			<p>We wanted alternating colors for our rows. To accommodate that capability we used the position() along with a mod to check for even rows. In addition, we formatted alternating rows with different colors.
+          </p>
+		</div>
+		<div class="sectionspacer"></div>
+		<h1>The XSL Transformation for This Paper</h1>
+		<div class="sectionspacer"></div>
+		<div class="subsectiondiv">
+			<h2>The Schema</h2>
+			<p>
+The content contained within this paper resides as XML data in the projectpaper.xml file. In order to fit the content into the XML document we had to come up with a XSD schema that would suit our needs. The schema definition resides in the file name ChicagoStylePaperSchema.xsd. That file contains all of the necessary elements to create a Chicago style term paper. We will point out that the Chicago Manual of Style is several hundred pages and I can safely guess that not even a professional writer will ever use everything found in the Chicago Manual of Style. The book includes everything from how to lay out a book for the printer, to proper documentation measurements. We set out to create a schema that met at a minimum the needs of this paper. 
+          </p>
+			<p>
+          We focused our paper on those elements that are pertinent to a graduate paper. This includes definitions for the elements as seen in Figure 6:
+          </p>
+			<div class="figuremargin">
+				<div><img class="figure" alt="ChicagoStylePaperSchema.png" src="./images/ChicagoStylePaperSchema.png"></div>
+				<h3 class="figureheader">Figure 6. Chicago Style Paper Schema (Full Tree)</h3>
+			</div>
+		</div>
+		<div class="sectionspacer"></div>
+		<div class="subsectiondiv">
+			<h2>The Transformation</h2>
+			<p>
+Having the schema in such a simplistic state, provided us with the capability to easily transform the contents into an HTML page.  You can view the entire contents in appendix section of this paper. Perhaps it was due to all of the previous work that we have done for this class or possibly because the content is more sequential than anything we have previously done, it was rather easy to transform the content into HTML.
+                   </p>
+			<p>
+In short the transformation consisted of the XLS necessary to transform the XML, the Cascading Style Sheet configuration to properly format the HTML content.  We did not stray too far from traditional HTML elements.  We avoided HTML attributes largely in part so that we could delegate that responsibility to 
+the CSS code.  The CSS code enabled us to perform the following feats. 
+                   </p>
+			<ul>
+				<li class="bulleteditem_level">Format the title appropriately in upper case</li>
+				<li class="bulleteditem_level">Format all Level 1 headers</li>
+				<li class="bulleteditem_level">Format all Level 2 headers</li>
+				<li class="bulleteditem_level">Format our figures to a uniform size</li>
+				<li class="bulleteditem_level">Provide the proper spacing between sections</li>
+				<li class="bulleteditem_level">Properly size the paragraphs</li>
+				<li class="bulleteditem_level">Properly indent the bulleted lists base on level</li>
+				<li class="bulleteditem_level">Properly format the bibliography</li>
+			</ul>
+		</div>
+		<div class="sectionspacer"></div>
+		<div>
+			<h1>Summary</h1>
+			<p>The Picasso Inventory is far from being a complete system. It does demonstrate the ability to use XML through all parts of the system to create, update, and read the data effectively. Our sample HTML is nothing but one small sample of use data this data. With some more work, we can do more to display customized queries of the data along with other nice features like pagination, on-demand queries, and full catalog information.
+</p>
+			<p>
+          Just like the inventory system, our Chicago Manual of Style schema is far from complete. It does provide a neat way of storing content. We are certain that with some more work and time, this schema can provide all of the required features that would go along with a term paper written in the Chicago Manual of Style format. Because our paper only used a small subset of the guidelines provided by the Chicago Manual of Style, we did not add every possible feature. Among the features missing are: 
+         </p>
+			<ul>
+				<li class="bulleteditem_level">Paragraph with mixed content to allow proper formatting of:</li>
+				<li class="bulleteditem_level2">Italics</li>
+				<li class="bulleteditem_level2">Bold items</li>
+				<li class="bulleteditem_level2">Other notations such as footnotes</li>
+				<li class="bulleteditem_level">Level 3 and Level 4 headers</li>
+				<li class="bulleteditem_level">Footnotes</li>
+				<li class="bulleteditem_level">Block quotations</li>
+				<li class="bulleteditem_level">Tables</li>
+				<li class="bulleteditem_level">Proper indentation for Bibliography references</li>
+			</ul>
+			<p>
+With a little more time, perhaps a week or two, completion of the implementation of most of those features is possible. 
+        </p>
+		</div>
+		<p class="bibliographyheader">
+                Bibliography
+      </p>
+		<p class="bibliography"><i><b>The Chicago Manual of Style, </b></i><i>The Essential Guide for Writers, Editors, and Publishers, </i><i>15th Edition </i>The University of Chicago Press, <i><b>http://www.chicagomanualofstyle.org/home.html</b></i></p>
+		<p class="bibliography">Mangano, Sal, <i>XSLT Cookbook, </i>O'Reilly Media Inc, and 2002, <i><b>http://my.safaribooksonline.com </b></i></p>
+	</body>
+</html>

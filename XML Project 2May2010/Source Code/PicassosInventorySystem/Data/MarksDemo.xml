@@ -1,0 +1,89 @@
+
+<ProductGraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="products.xsd">
+   <Catalog>
+      <CatalogItems>
+         <CatalogItem VendorId="vendor0000000001"  Id="cat0000000003"  VendorAssignedProductId="MWCG3240" >
+            <Description>MAT White Core Green 32x40</Description>
+            <UnitCost>2.50</UnitCost>
+            <Comments/>
+         </CatalogItem>
+      </CatalogItems>
+      <BoxedItems>
+         <BoxedItem VendorId="vendor0000000001"  Id="cat0000000004"  VendorAssignedProductId="GLASS16x20" >
+            <Description>Glass</Description>
+            <UnitCost>2.5</UnitCost>
+            <Comments/>
+            <BoxCost>25</BoxCost>
+            <UnitsInBox>10</UnitsInBox>
+         </BoxedItem>
+         <BoxedItem VendorId="vendor0000000002"  Id="cat0000000006"  VendorAssignedProductId="GLASS16x20" >
+            <Description>Glass</Description>
+            <UnitCost>3</UnitCost>
+            <Comments/>
+            <BoxCost>30</BoxCost>
+            <UnitsInBox>10</UnitsInBox>
+         </BoxedItem>
+      </BoxedItems>
+      <VolumeItems>
+         <VolumeItem VendorId="vendor0000000002"  Id="cat0000000007"  VendorAssignedProductId="MGL3INW" >
+            <Description>Molding Gold Leaf 3in Wide</Description>
+            <UnitCost>4</UnitCost>
+            <Comments/>
+            <MinimumVolume>10</MinimumVolume>
+            <UnitOfMeasure>Foot</UnitOfMeasure>
+         </VolumeItem>
+      </VolumeItems>
+   </Catalog>
+   <Inventory>
+      <InventoryItems>
+         <InventoryItem Id="inv0000000005"  LocationId="loc0000000009"  CatalogItemId="cat0000000003" >
+            <QtyOnHand>10</QtyOnHand>
+            <ReOrderPoint>10</ReOrderPoint>
+            <ReOrderQuantity>10</ReOrderQuantity>
+            <Comments>Please store in upper bins to preven damage by flood</Comments>
+         </InventoryItem>
+         <InventoryItem Id="inv0000000008"  LocationId="loc0000000009"  CatalogItemId="cat0000000007" >
+            <QtyOnHand>20</QtyOnHand>
+            <ReOrderPoint>10</ReOrderPoint>
+            <ReOrderQuantity>10</ReOrderQuantity>
+            <Comments>Please store in upper bins to preven damage by flood</Comments>
+         </InventoryItem>
+      </InventoryItems>
+      <Locations>
+         <Location Id="loc0000000009" >
+            <Name>Back Room</Name>
+            <Description>Back Room of Store Bin1</Description>
+         </Location>
+      </Locations>
+   </Inventory>
+   <Suppliers>
+      <Vendor Id="vendor0000000001" >
+         <Name>Hobby Lobby Temple</Name>
+         <PointOfContact>Jeff</PointOfContact>
+         <PhoneNumber>254 333-5555</PhoneNumber>
+         <Comments>Located Now by Ross</Comments>
+         <Addresses>
+            <Address>
+               <Street>123 some street</Street>
+               <City>Temple</City>
+               <State>TX</State>
+               <Zip>76543</Zip>
+            </Address>
+         </Addresses>
+      </Vendor>
+      <Vendor Id="vendor0000000002" >
+         <Name>Hobby Lobby Killeen</Name>
+         <PointOfContact>Jeff</PointOfContact>
+         <PhoneNumber>254 333-5555</PhoneNumber>
+         <Comments>Located Now by Ross</Comments>
+         <Addresses>
+            <Address>
+               <Street>123 some street</Street>
+               <City>Killeen</City>
+               <State>TX</State>
+               <Zip>76543</Zip>
+            </Address>
+         </Addresses>
+      </Vendor>
+   </Suppliers>
+</ProductGraph>

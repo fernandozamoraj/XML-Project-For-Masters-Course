@@ -1,0 +1,799 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/f:Class1.cs" caret="0" fromTop="0" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:VolumeItemDetailsControl.cs" caret="13" fromTop="0" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:BoxedItemDetailsControl.cs" caret="1327" fromTop="14" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.Designer.cs" caret="50391" fromTop="11" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/f:MainForm.Designer.cs" caret="6122" fromTop="80" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Extensions/f:TextBoxExtensions.cs" caret="1145" fromTop="16" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:IIdentifiable.cs" caret="105" fromTop="4" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:Location.cs" caret="2325" fromTop="8" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Utility/f:IdManager.cs" caret="446" fromTop="0" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:VolumeItem.cs" caret="1176" fromTop="7" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/f:app.config" caret="549" fromTop="7" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:BoxedItem.cs" caret="1207" fromTop="25" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:InventoryItem.cs" caret="2591" fromTop="14" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Utility/f:XMLHelper.cs" caret="923" fromTop="11" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:Vendor.cs" caret="2108" fromTop="4" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Utility/f:Constants.cs" caret="139" fromTop="5" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="19426" fromTop="0" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/f:Program.cs" caret="154" fromTop="3" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/f:MainForm.cs" caret="6433" fromTop="6" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:Address.cs" caret="1592" fromTop="38" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:Catalog.cs" caret="1030" fromTop="8" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Extensions/f:MyExtensions.cs" caret="3353" fromTop="6" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:Entity.cs" caret="229" fromTop="0" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:IXmlSerializable.cs" caret="239" fromTop="8" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:CatalogItem.cs" caret="530" fromTop="0" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:ProductGraph.cs" caret="0" fromTop="0" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:Inventory.cs" caret="0" fromTop="0" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:Vendor.cs" caret="1462" fromTop="7" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Utility/f:XMLHelper.cs" caret="923" fromTop="11" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Utility/f:XMLHelper.cs" caret="20816" fromTop="11" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="34774" fromTop="10" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:Vendor.cs" caret="2180" fromTop="6" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:Vendor.cs" caret="2972" fromTop="6" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="17664" fromTop="13" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="4463" fromTop="10" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="13086" fromTop="10" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Utility/f:Constants.cs" caret="197" fromTop="5" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Extensions/f:MyExtensions.cs" caret="1128" fromTop="13" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Extensions/f:MyExtensions.cs" caret="876" fromTop="10" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Extensions/f:MyExtensions.cs" caret="611" fromTop="9" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Extensions/f:MyExtensions.cs" caret="1275" fromTop="5" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="13490" fromTop="13" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="10747" fromTop="23" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="34774" fromTop="23" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="29935" fromTop="9" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="31187" fromTop="10" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="24328" fromTop="9" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="26213" fromTop="10" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="6860" fromTop="11" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="20165" fromTop="12" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="16464" fromTop="9" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Views/f:ProductsForm.cs" caret="2673" fromTop="13" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:CatalogItem.cs" caret="286" fromTop="4" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:ProductGraph.cs" caret="1087" fromTop="8" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:ProductGraph.cs" caret="3735" fromTop="10" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:ProductGraph.cs" caret="0" fromTop="0" />
+      <File id="3B8A7999-3AD9-4E25-9B08-0B48D55162A7/d:Model/f:Inventory.cs" caret="0" fromTop="0" />
+    </RecentEdits>
+  </RecentFiles>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerMSTest>
+    <UseTestRunConfigFromMetadataFile>False</UseTestRunConfigFromMetadataFile>
+  </UnitTestRunnerMSTest>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="static" priority="12" />
+      <Item value="MainForm" priority="1" />
+      <Item value="string" priority="173" />
+      <Item value="STAThread" priority="0" />
+      <Item value="new" priority="90" />
+      <Item value="public" priority="78" />
+      <Item value="decimal" priority="22" />
+      <Item value="return" priority="96" />
+      <Item value="BundleCost" priority="0" />
+      <Item value="class" priority="10" />
+      <Item value="SupplyItem" priority="23" />
+      <Item value="BoxCost" priority="4" />
+      <Item value="override" priority="24" />
+      <Item value="int" priority="23" />
+      <Item value="ItemsInBox" priority="1" />
+      <Item value="set" priority="6" />
+      <Item value="get" priority="1" />
+      <Item value="UnitCost" priority="5" />
+      <Item value="value" priority="11" />
+      <Item value="List" priority="25" />
+      <Item value="Vendor" priority="37" />
+      <Item value="InventoryItem" priority="29" />
+      <Item value="Location" priority="38" />
+      <Item value="virtual" priority="0" />
+      <Item value="Entity" priority="4" />
+      <Item value="this" priority="41" />
+      <Item value="Address" priority="10" />
+      <Item value="Catalog" priority="12" />
+      <Item value="Inventory" priority="14" />
+      <Item value="void" priority="23" />
+      <Item value="XmlSerializable" priority="1" />
+      <Item value="XmlHelper" priority="0" />
+      <Item value="object" priority="6" />
+      <Item value="stringBuilder" priority="1" />
+      <Item value="StringBuilder" priority="0" />
+      <Item value="xml" priority="93" />
+      <Item value="Street" priority="3" />
+      <Item value="City" priority="3" />
+      <Item value="State" priority="2" />
+      <Item value="IXmlSerializable" priority="12" />
+      <Item value="List&lt;string&gt;" priority="10" />
+      <Item value="base" priority="10" />
+      <Item value="for" priority="6" />
+      <Item value="in" priority="25" />
+      <Item value="bool" priority="27" />
+      <Item value="false" priority="45" />
+      <Item value="baseClassXml" priority="1" />
+      <Item value="if" priority="136" />
+      <Item value="includeRootElement" priority="11" />
+      <Item value="foreach" priority="35" />
+      <Item value="CreateElement" priority="1" />
+      <Item value="elementName" priority="8" />
+      <Item value="format" priority="1" />
+      <Item value="MininumVolume" priority="3" />
+      <Item value="XMLHelper" priority="23" />
+      <Item value="UnitOfMeasure" priority="3" />
+      <Item value="PointOfContact" priority="3" />
+      <Item value="PhoneNumber" priority="3" />
+      <Item value="address" priority="7" />
+      <Item value="includeRoot" priority="1" />
+      <Item value="VendorAssignedProductId" priority="6" />
+      <Item value="Description" priority="13" />
+      <Item value="true" priority="35" />
+      <Item value="serializable" priority="0" />
+      <Item value="list" priority="0" />
+      <Item value="serializables" priority="0" />
+      <Item value="serializableItems" priority="0" />
+      <Item value="serializableItem" priority="0" />
+      <Item value="Suppliers" priority="4" />
+      <Item value="InventoryItems" priority="4" />
+      <Item value="using" priority="7" />
+      <Item value="PicassosInventorySystem" priority="2" />
+      <Item value="Extensions" priority="2" />
+      <Item value="where" priority="1" />
+      <Item value="fullElment" priority="2" />
+      <Item value="attribute" priority="3" />
+      <Item value="indexOfFirstClosingBracket" priority="2" />
+      <Item value="newElementValue" priority="0" />
+      <Item value="newAttributeValue" priority="0" />
+      <Item value="Id" priority="6" />
+      <Item value="QtyOnHand" priority="4" />
+      <Item value="leftPadding" priority="36" />
+      <Item value="innerPadding" priority="27" />
+      <Item value="innerPaddin" priority="0" />
+      <Item value="SupplyItems" priority="2" />
+      <Item value="const" priority="0" />
+      <Item value="Constants" priority="1" />
+      <Item value="List&lt;SupplyItem&gt;" priority="1" />
+      <Item value="VolumeItem" priority="13" />
+      <Item value="Addresses" priority="5" />
+      <Item value="List&lt;Address&gt;" priority="2" />
+      <Item value="Name" priority="10" />
+      <Item value="String" priority="1" />
+      <Item value="ProductGraph" priority="15" />
+      <Item value="List&lt;Vendor&gt;" priority="2" />
+      <Item value="ReOrderPoint" priority="3" />
+      <Item value="ReOrderQuantity" priority="3" />
+      <Item value="IdManager" priority="22" />
+      <Item value="private" priority="10" />
+      <Item value="_theIdManager" priority="2" />
+      <Item value="null" priority="15" />
+      <Item value="_Ids" priority="5" />
+      <Item value="Dictionary&lt;string,object&gt;" priority="0" />
+      <Item value="IdsDictionary" priority="0" />
+      <Item value="lastItemIndex" priority="2" />
+      <Item value="long" priority="1" />
+      <Item value="nextId" priority="1" />
+      <Item value="nextIdString" priority="3" />
+      <Item value="manager" priority="5" />
+      <Item value="System" priority="3" />
+      <Item value="Xml" priority="2" />
+      <Item value="ReadState" priority="0" />
+      <Item value="XmlElement" priority="24" />
+      <Item value="xmlElement" priority="10" />
+      <Item value="XmlDocument" priority="1" />
+      <Item value="xmlDocument" priority="2" />
+      <Item value="XmlNodeList" priority="0" />
+      <Item value="xmlNodeList" priority="1" />
+      <Item value="List&lt;InventoryItem&gt;" priority="3" />
+      <Item value="inventoryItem" priority="48" />
+      <Item value="element" priority="4" />
+      <Item value="Linq" priority="0" />
+      <Item value="XElement" priority="11" />
+      <Item value="xElement" priority="47" />
+      <Item value="xRootElement" priority="0" />
+      <Item value="returnValue" priority="3" />
+      <Item value="Zip" priority="1" />
+      <Item value="UnitsInBox" priority="3" />
+      <Item value="supplyItem" priority="2" />
+      <Item value="newSupplyItem" priority="1" />
+      <Item value="supplyItemElement" priority="0" />
+      <Item value="target" priority="0" />
+      <Item value="vendorElement" priority="1" />
+      <Item value="vendor" priority="36" />
+      <Item value="productGraph" priority="21" />
+      <Item value="Model" priority="0" />
+      <Item value="tempLocation" priority="1" />
+      <Item value="warehouseLocation" priority="1" />
+      <Item value="Supplier" priority="5" />
+      <Item value="gracoVendor" priority="1" />
+      <Item value="writer" priority="1" />
+      <Item value="StreamWriter" priority="0" />
+      <Item value="try" priority="5" />
+      <Item value="MessageBox" priority="6" />
+      <Item value="exception" priority="14" />
+      <Item value="List&lt;Location&gt;" priority="0" />
+      <Item value="Locations" priority="3" />
+      <Item value="location" priority="17" />
+      <Item value="item" priority="5" />
+      <Item value="LocationId" priority="2" />
+      <Item value="indexFound" priority="1" />
+      <Item value="_Id" priority="4" />
+      <Item value="idManager" priority="1" />
+      <Item value="XAttribute" priority="1" />
+      <Item value="CatalogItem" priority="61" />
+      <Item value="CatalogItems" priority="8" />
+      <Item value="BoxedItem" priority="20" />
+      <Item value="BoxedItems" priority="5" />
+      <Item value="VolumeItems" priority="2" />
+      <Item value="List&lt;VolumeItem&gt;" priority="0" />
+      <Item value="List&lt;BoxedItem&gt;" priority="0" />
+      <Item value="document" priority="1" />
+      <Item value="XDocument" priority="0" />
+      <Item value="StreamReader" priority="1" />
+      <Item value="streamReader" priority="1" />
+      <Item value="filePath" priority="0" />
+      <Item value="attributeName" priority="0" />
+      <Item value="xAttribute" priority="1" />
+      <Item value="catalogElement" priority="1" />
+      <Item value="suppliersElement" priority="0" />
+      <Item value="catalogElements" priority="0" />
+      <Item value="t" priority="2" />
+      <Item value="typeof" priority="3" />
+      <Item value="Convert" priority="3" />
+      <Item value="Type" priority="0" />
+      <Item value="uint" priority="0" />
+      <Item value="prodctGraph" priority="0" />
+      <Item value="productsForm" priority="2" />
+      <Item value="ProductsForm" priority="1" />
+      <Item value="OpenFileDialog" priority="1" />
+      <Item value="openFileDialog" priority="5" />
+      <Item value="dialogResult" priority="3" />
+      <Item value="DialogResult" priority="9" />
+      <Item value="ReadFile" priority="0" />
+      <Item value="OpenProductsForm" priority="0" />
+      <Item value="fileName" priority="2" />
+      <Item value="newFileName" priority="3" />
+      <Item value="else" priority="12" />
+      <Item value="SaveFileDialog" priority="1" />
+      <Item value="saveFileDialog" priority="4" />
+      <Item value="lbxVendors" priority="21" />
+      <Item value="_productGraph" priority="20" />
+      <Item value="LoadVendorTab" priority="2" />
+      <Item value="txtVendorName" priority="5" />
+      <Item value="txtVendorContactPerson" priority="5" />
+      <Item value="txtVendorPhoneNo" priority="3" />
+      <Item value="txtVendorStreet" priority="5" />
+      <Item value="txtVendorCity" priority="10" />
+      <Item value="txtVendorState" priority="8" />
+      <Item value="txtVendorZip" priority="13" />
+      <Item value="as" priority="18" />
+      <Item value="selectedVendor" priority="5" />
+      <Item value="vendorAddress" priority="3" />
+      <Item value="addressesElement" priority="0" />
+      <Item value="addressElement" priority="0" />
+      <Item value="ClearVendor" priority="1" />
+      <Item value="vendorName" priority="0" />
+      <Item value="newVendor" priority="3" />
+      <Item value="MessageBoxButtons" priority="2" />
+      <Item value="MessageBoxIcon" priority="2" />
+      <Item value="cbxUnitOfMeasure" priority="11" />
+      <Item value="rdoCatalogBox" priority="5" />
+      <Item value="boxedItemDetailsControl1" priority="6" />
+      <Item value="rdoCatalogVolume" priority="5" />
+      <Item value="volumeItemDetailsControl1" priority="9" />
+      <Item value="SetCorrectCatalogTypeControl" priority="1" />
+      <Item value="lbxCatalogItems" priority="14" />
+      <Item value="catalogItem" priority="71" />
+      <Item value="cbxVendor" priority="2" />
+      <Item value="LoadVendors" priority="0" />
+      <Item value="txtCatalogItemDescription" priority="8" />
+      <Item value="txtCatalogUnitCost" priority="13" />
+      <Item value="txtCatalogVendorProductId" priority="9" />
+      <Item value="cbxCatalogVendor" priority="9" />
+      <Item value="rdoCatalogSingle" priority="3" />
+      <Item value="is" priority="15" />
+      <Item value="boxedItem" priority="6" />
+      <Item value="txtBoxCost" priority="3" />
+      <Item value="txtUnitsInBox" priority="3" />
+      <Item value="result" priority="1" />
+      <Item value="volumeItem" priority="7" />
+      <Item value="SetSelectedCatalogItem" priority="0" />
+      <Item value="_VendorId" priority="0" />
+      <Item value="VendorId" priority="1" />
+      <Item value="ClearCatalogDetails" priority="0" />
+      <Item value="description" priority="0" />
+      <Item value="itemFound" priority="14" />
+      <Item value="break" priority="2" />
+      <Item value="returnItem" priority="9" />
+      <Item value="found" priority="0" />
+      <Item value="source" priority="4" />
+      <Item value="out" priority="1" />
+      <Item value="unitCost" priority="1" />
+      <Item value="ListBindingConverter" priority="0" />
+      <Item value="List&lt;CatalogItem&gt;" priority="2" />
+      <Item value="catalogItems" priority="3" />
+      <Item value="LoadCatalogTab" priority="1" />
+      <Item value="IComparable" priority="0" />
+      <Item value="obj" priority="8" />
+      <Item value="other" priority="0" />
+      <Item value="lblUnitCost" priority="4" />
+      <Item value="inventoryItems" priority="2" />
+      <Item value="inventoryItemsToDelete" priority="1" />
+      <Item value="GetInventoryItemsForVendor" priority="0" />
+      <Item value="catalogItemsToDelete" priority="0" />
+      <Item value="message" priority="0" />
+      <Item value="LoadAllData" priority="1" />
+      <Item value="deleteList" priority="1" />
+      <Item value="IEquatable" priority="0" />
+      <Item value="WarningMessageAccepted" priority="0" />
+      <Item value="Message" priority="0" />
+      <Item value="HandleException" priority="1" />
+      <Item value="Nullable" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="ApplicationException" priority="0" />
+      <Item value="catch" priority="0" />
+      <Item value="Exception" priority="0" />
+      <Item value="ToString" priority="6" />
+      <Item value="txtMinimum" priority="2" />
+      <Item value="sender" priority="1" />
+      <Item value="char" priority="14" />
+      <Item value="text" priority="0" />
+      <Item value="i" priority="7" />
+      <Item value="rawCharacters" priority="4" />
+      <Item value="Length" priority="1" />
+      <Item value="newTextString" priority="3" />
+      <Item value="newText" priority="0" />
+      <Item value="TextBox" priority="4" />
+      <Item value="textBox" priority="13" />
+      <Item value="allowDecimals" priority="1" />
+      <Item value="isNumber" priority="0" />
+      <Item value="isDecimalPoint" priority="0" />
+      <Item value="decimalPointIsAllowed" priority="0" />
+      <Item value="txtCatalogId" priority="3" />
+      <Item value="index" priority="2" />
+      <Item value="actualNumbersAfterDecimal" priority="0" />
+      <Item value="digitsAfterDecimalPoint" priority="1" />
+      <Item value="newTextValue" priority="1" />
+      <Item value="_currentCatalogItem" priority="4" />
+      <Item value="_currentVendor" priority="2" />
+      <Item value="CreateVendor" priority="0" />
+      <Item value="AddVendor" priority="0" />
+      <Item value="unitPrice" priority="1" />
+      <Item value="control" priority="3" />
+      <Item value="errorProvider1" priority="0" />
+      <Item value="errorMessage" priority="0" />
+      <Item value="SetError" priority="25" />
+      <Item value="isValid" priority="36" />
+      <Item value="zipCharacters" priority="1" />
+      <Item value="continue" priority="0" />
+      <Item value="DateTime" priority="1" />
+      <Item value="_isMouseDown" priority="0" />
+      <Item value="_mouseIsDown" priority="1" />
+      <Item value="e" priority="7" />
+      <Item value="Point" priority="2" />
+      <Item value="_mouseLocation" priority="2" />
+      <Item value="cbxLocation" priority="16" />
+      <Item value="txtInventoryToString" priority="1" />
+      <Item value="lbxInventory" priority="4" />
+      <Item value="cbxInventoryCatalogItem" priority="12" />
+      <Item value="txtInventoryQtyOnHand" priority="0" />
+      <Item value="txtInventoryROPoint" priority="0" />
+      <Item value="txtInventoryROQty" priority="1" />
+      <Item value="txtLocationDescription" priority="8" />
+      <Item value="_currentLocation" priority="5" />
+      <Item value="currentLocation" priority="1" />
+      <Item value="locationWasFound" priority="0" />
+      <Item value="SaveInventory" priority="0" />
+      <Item value="LoadInventory" priority="0" />
+      <Item value="IComparer" priority="0" />
+      <Item value="FindVendor" priority="0" />
+      <Item value="locationId" priority="1" />
+      <Item value="catalogId" priority="2" />
+      <Item value="HandleLoseUnsavedData" priority="0" />
+      <Item value="SetSelectedVendor" priority="0" />
+      <Item value="txtInventoryId" priority="0" />
+      <Item value="var" priority="0" />
+      <Item value="allCatalogItems" priority="2" />
+      <Item value="GetAllCatalogItems" priority="1" />
+      <Item value="vendorAssignedProductId" priority="2" />
+      <Item value="x" priority="2" />
+      <Item value="error" priority="1" />
+      <Item value="myString" priority="0" />
+      <Item value="myStringAsCharArray" priority="1" />
+      <Item value="character" priority="6" />
+      <Item value="SetIsValidXmlString" priority="0" />
+      <Item value="IsValidXmlString" priority="5" />
+      <Item value="ref" priority="4" />
+      <Item value="Control" priority="0" />
+      <Item value="id" priority="6" />
+      <Item value="temporaryId" priority="4" />
+      <Item value="numericId" priority="2" />
+      <Item value="c" priority="2" />
+      <Item value="prefix" priority="2" />
+      <Item value="ObjectDisposedException" priority="0" />
+      <Item value="IIdentifiable" priority="3" />
+      <Item value="abstract" priority="1" />
+      <Item value="GetPrefix" priority="6" />
+      <Item value="MyExtensions" priority="0" />
+      <Item value="InventorySettings" priority="2" />
+      <Item value="fixedId" priority="1" />
+      <Item value="Comments" priority="2" />
+      <Item value="txtVendorComments" priority="4" />
+      <Item value="validCharacter" priority="0" />
+      <Item value="txtInventoryComments" priority="3" />
+      <Item value="txtCatalogComments" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.MainForm">
+      <Item value="ShowDialog" priority="0" />
+      <Item value="Location" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Model.InventoryItem">
+      <Item value="Location" priority="7" />
+      <Item value="ReOrderPoint" priority="1" />
+      <Item value="ReOrderQuantity" priority="1" />
+      <Item value="LoadFromXml" priority="0" />
+      <Item value="SupplyItem" priority="1" />
+      <Item value="LocationId" priority="2" />
+      <Item value="CatalogItem" priority="8" />
+      <Item value="ToString" priority="0" />
+      <Item value="QtyOnHand" priority="0" />
+      <Item value="CatalogItemId" priority="1" />
+      <Item value="Comments" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Model.Location">
+      <Item value="Id" priority="6" />
+      <Item value="ProduceXml" priority="0" />
+      <Item value="Name" priority="3" />
+      <Item value="Description" priority="2" />
+      <Item value="ToString" priority="0" />
+      <Item value="Equals" priority="0" />
+      <Item value="GetPrefix" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Text.StringBuilder">
+      <Item value="Append" priority="5" />
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format" priority="12" />
+      <Item value="Empty" priority="29" />
+      <Item value="IsNullOrEmpty" priority="21" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add" priority="69" />
+      <Item value="AddRange" priority="6" />
+      <Item value="ProduceXml" priority="3" />
+      <Item value="Count" priority="1" />
+      <Item value="BinarySearch" priority="0" />
+      <Item value="Sort" priority="2" />
+      <Item value="Remove" priority="4" />
+      <Item value="ToArray" priority="5" />
+      <Item value="Find" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Model.SupplyItem">
+      <Item value="ToString" priority="1" />
+      <Item value="ProduceXml" priority="2" />
+      <Item value="LoadFromXml" priority="2" />
+      <Item value="VendorAssignedProductId" priority="0" />
+      <Item value="Supplier" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Model.IXmlSerializable">
+      <Item value="ProduceXml" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Decimal">
+      <Item value="ToString" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PicassosInventorySystem.Utility.XMLHelper">
+      <Item value="CreateElement" priority="18" />
+      <Item value="AddAttribute" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Model.Address">
+      <Item value="ProduceXml" priority="0" />
+      <Item value="Street" priority="0" />
+      <Item value="City" priority="1" />
+      <Item value="State" priority="2" />
+      <Item value="Zip" priority="1" />
+      <Item value="LoadFromXml" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Model.Entity">
+      <Item value="Id" priority="3" />
+      <Item value="GetPrefix" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Model.Catalog">
+      <Item value="ProduceXml" priority="0" />
+      <Item value="SupplyItems" priority="1" />
+      <Item value="CatalogItems" priority="7" />
+      <Item value="BoxedItems" priority="3" />
+      <Item value="VolumeItems" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Model.ProductGraph">
+      <Item value="Inventory" priority="16" />
+      <Item value="Catalog" priority="15" />
+      <Item value="Suppliers" priority="4" />
+      <Item value="ProduceXml" priority="0" />
+      <Item value="LoadFromXml" priority="1" />
+      <Item value="SaveToFile" priority="0" />
+      <Item value="DeleteVendor" priority="0" />
+      <Item value="RemoveCatalogItem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="IndexOf" priority="4" />
+      <Item value="Insert" priority="1" />
+      <Item value="ToString" priority="1" />
+      <Item value="PadLeft" priority="1" />
+      <Item value="CompareTo" priority="1" />
+      <Item value="Equals" priority="2" />
+      <Item value="ToCharArray" priority="3" />
+      <Item value="Length" priority="6" />
+      <Item value="Substring" priority="1" />
+      <Item value="IsValidPicassoXmlString" priority="5" />
+      <Item value="StartsWith" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PicassosInventorySystem.Utility.Constants">
+      <Item value="XML_PADDING" priority="0" />
+      <Item value="VALID_CHARS_FOR_XML_DATA" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt64" priority="2" />
+      <Item value="ToUInt64" priority="1" />
+      <Item value="ToInt32" priority="1" />
+      <Item value="ToUInt32" priority="0" />
+      <Item value="ToDecimal" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int64">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.UInt64">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PicassosInventorySystem.Utility.IdManager">
+      <Item value="GetIdManager" priority="4" />
+      <Item value="FixId" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Utility.IdManager">
+      <Item value="GetNewId" priority="1" />
+      <Item value="RegisterId" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlDocument">
+      <Item value="GetElementsByTagName" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlNodeList">
+      <Item value="Item" priority="0" />
+      <Item value="Indexer" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlNode">
+      <Item value="ChildNodes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.XmlElement">
+      <Item value="GetElementsByTagName" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XElement">
+      <Item value="Elements" priority="13" />
+      <Item value="Value" priority="2" />
+      <Item value="GetValue" priority="0" />
+      <Item value="GetElementValue" priority="16" />
+      <Item value="LoadObjectFromXml" priority="4" />
+      <Item value="FirstAttribute" priority="0" />
+      <Item value="Attribute" priority="2" />
+      <Item value="GetAttributeValue" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Model.BoxedItem">
+      <Item value="BoxCost" priority="2" />
+      <Item value="UnitsInBox" priority="2" />
+      <Item value="Description" priority="0" />
+      <Item value="ToString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:">
+      <Item value="LoadFromXml" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Model.Vendor">
+      <Item value="Id" priority="5" />
+      <Item value="Name" priority="3" />
+      <Item value="LoadFromXml" priority="0" />
+      <Item value="PointOfContact" priority="1" />
+      <Item value="PhoneNumber" priority="1" />
+      <Item value="Addresses" priority="7" />
+      <Item value="Equals" priority="3" />
+      <Item value="GetPrefix" priority="1" />
+      <Item value="Comments" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Model.Inventory">
+      <Item value="InventoryItems" priority="8" />
+      <Item value="Locations" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamWriter">
+      <Item value="Write" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="ToString" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XAttribute">
+      <Item value="Value" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Model.CatalogItem">
+      <Item value="Id" priority="6" />
+      <Item value="Description" priority="8" />
+      <Item value="UnitCost" priority="5" />
+      <Item value="VendorAssignedProductId" priority="6" />
+      <Item value="Supplier" priority="9" />
+      <Item value="_VendorId" priority="1" />
+      <Item value="VendorId" priority="1" />
+      <Item value="GetType" priority="1" />
+      <Item value="CompareTo" priority="1" />
+      <Item value="Equals" priority="1" />
+      <Item value="ToString" priority="1" />
+      <Item value="GetPrefix" priority="0" />
+      <Item value="Comments" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Xml.Linq.XDocument">
+      <Item value="Parse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.StreamReader">
+      <Item value="ReadToEnd" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Xml.Linq.XDocument">
+      <Item value="Element" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Views.ProductsForm">
+      <Item value="ShowDialog" priority="0" />
+      <Item value="Close" priority="1" />
+      <Item value="Disposing" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.OpenFileDialog">
+      <Item value="ShowDialog" priority="0" />
+      <Item value="FileName" priority="2" />
+      <Item value="Filter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DialogResult">
+      <Item value="OK" priority="2" />
+      <Item value="Cancel" priority="0" />
+      <Item value="Yes" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PicassosInventorySystem.Model.ProductGraph">
+      <Item value="FromFile" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DialogResult">
+      <Item value="OK" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.SaveFileDialog">
+      <Item value="ShowDialog" priority="0" />
+      <Item value="FileName" priority="2" />
+      <Item value="Filter" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListBox">
+      <Item value="DataSource" priority="1" />
+      <Item value="Items" priority="18" />
+      <Item value="SelectedIndex" priority="11" />
+      <Item value="SelectedItem" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ListBox+ObjectCollection">
+      <Item value="Add" priority="7" />
+      <Item value="Clear" priority="1" />
+      <Item value="Contains" priority="0" />
+      <Item value="Count" priority="2" />
+      <Item value="Remove" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="70" />
+      <Item value="RemovingNonNumericCharacters" priority="0" />
+      <Item value="SuspendLayout" priority="0" />
+      <Item value="NormalizedToDecimalPoint" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxButtons">
+      <Item value="YesNo" priority="1" />
+      <Item value="OKCancel" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxIcon">
+      <Item value="Warning" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="Items" priority="19" />
+      <Item value="SelectedIndex" priority="2" />
+      <Item value="Text" priority="5" />
+      <Item value="SelectedItem" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox+ObjectCollection">
+      <Item value="Clear" priority="3" />
+      <Item value="Add" priority="13" />
+      <Item value="AddRange" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RadioButton">
+      <Item value="Checked" priority="13" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Views.BoxedItemDetailsControl">
+      <Item value="Visible" priority="2" />
+      <Item value="UnitsInBox" priority="1" />
+      <Item value="BoxCost" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Views.VolumeItemDetailsControl">
+      <Item value="Visible" priority="4" />
+      <Item value="UnitsOfMeasure" priority="1" />
+      <Item value="MinimunVolume" priority="1" />
+      <Item value="BringToFront" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.MaskedTextBox">
+      <Item value="Text" priority="6" />
+      <Item value="Visible" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="TryParse" priority="2" />
+      <Item value="Parse" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Model.VolumeItem">
+      <Item value="UnitOfMeasure" priority="2" />
+      <Item value="MininumVolume" priority="1" />
+      <Item value="ToString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Label">
+      <Item value="Visible" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Char">
+      <Item value="IsNumber" priority="4" />
+      <Item value="IsLetter" priority="0" />
+      <Item value="IsLetterOrDigit" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Decimal">
+      <Item value="TryParse" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ErrorProvider">
+      <Item value="SetError" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToShortDateString" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.MouseEventArgs">
+      <Item value="Delta" priority="1" />
+      <Item value="X" priority="1" />
+      <Item value="Y" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Point">
+      <Item value="X" priority="1" />
+      <Item value="Y" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.FormClosingEventArgs">
+      <Item value="Cancel" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@PicassosInventorySystem.Inventory">
+      <Item value="Default" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:PicassosInventorySystem.Inventory">
+      <Item value="PrefixCatalog" priority="0" />
+      <Item value="PrefixInventory" priority="0" />
+      <Item value="PrefixLocation" priority="0" />
+      <Item value="PrefixVendor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.RichTextBox">
+      <Item value="Text" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="IsValidXmlChar" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

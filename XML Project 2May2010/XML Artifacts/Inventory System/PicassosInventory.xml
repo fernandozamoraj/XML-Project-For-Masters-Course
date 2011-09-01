@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductGraph xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="products.xsd">
+   <Catalog>
+      <CatalogItems>
+         <CatalogItem VendorId="vendor0000000015"  Id="cat0000000001"  VendorAssignedProductId="M3240WCCR" >
+            <Description>MAT 32X40 White Core Color Chinese Red</Description>
+            <UnitCost>2.50</UnitCost>
+            <Comments/>
+         </CatalogItem>
+         <CatalogItem VendorId="vendor0000000015"  Id="cat0000000002"  VendorAssignedProductId="M3240WCTL" >
+            <Description>MAT 32X40 White Core Teal -Disc</Description>
+            <UnitCost>2.50</UnitCost>
+            <Comments/>
+         </CatalogItem>
+         <CatalogItem VendorId="vendor0000000015"  Id="cat0000000003"  VendorAssignedProductId="M3240WCBL" >
+            <Description>MAT 32X40 White Core Blue</Description>
+            <UnitCost>2.50</UnitCost>
+            <Comments/>
+         </CatalogItem>
+         <CatalogItem VendorId="vendor0000000015"  Id="cat0000000005"  VendorAssignedProductId="M3240WCBK" >
+            <Description>MAT 32X40 White Core Black</Description>
+            <UnitCost>2.50</UnitCost>
+            <Comments/>
+         </CatalogItem>
+         <CatalogItem VendorId="vendor0000000015"  Id="cat0000000006"  VendorAssignedProductId="M3240WCGR" >
+            <Description>MAT 32X40 White Core Green</Description>
+            <UnitCost>2.50</UnitCost>
+            <Comments/>
+         </CatalogItem>
+         <CatalogItem VendorId="vendor0000000015"  Id="cat0000000007"  VendorAssignedProductId="WR116200FT" >
+            <Description>Wire 1/16in 200 Ft.</Description>
+            <UnitCost>22.50</UnitCost>
+            <Comments/>
+         </CatalogItem>
+         <CatalogItem VendorId="vendor0000000015"  Id="cat0000000008"  VendorAssignedProductId="WR116400FT" >
+            <Description>Wire 1/16in 400 Ft.</Description>
+            <UnitCost>40.50</UnitCost>
+            <Comments/>
+         </CatalogItem>
+         <CatalogItem VendorId="vendor0000000015"  Id="cat0000000023"  VendorAssignedProductId="M3240WCOR" >
+            <Description>MAT 32X40 White Core Color Orange</Description>
+            <UnitCost>2.50</UnitCost>
+            <Comments/>
+         </CatalogItem>
+         <CatalogItem VendorId="vendor0000000035"  Id="cat0000000036"  VendorAssignedProductId="M3240WCCR" >
+            <Description>MAT 32X40 White Core Color Chinese Red</Description>
+            <UnitCost>2.75</UnitCost>
+            <Comments/>
+         </CatalogItem>
+      </CatalogItems>
+      <BoxedItems>
+         <BoxedItem VendorId="vendor0000000015"  Id="cat0000000009"  VendorAssignedProductId="M3240WCBKBX" >
+            <Description>MAT 32X40 White Core Black Box 10</Description>
+            <UnitCost>2</UnitCost>
+            <Comments/>
+            <BoxCost>20</BoxCost>
+            <UnitsInBox>10</UnitsInBox>
+         </BoxedItem>
+         <BoxedItem VendorId="vendor0000000015"  Id="cat0000000010"  VendorAssignedProductId="M3240WCBLBX" >
+            <Description>MAT 32X40 White Core Blue Box 10</Description>
+            <UnitCost>2</UnitCost>
+            <Comments/>
+            <BoxCost>20</BoxCost>
+            <UnitsInBox>10</UnitsInBox>
+         </BoxedItem>
+         <BoxedItem VendorId="vendor0000000015"  Id="cat0000000011"  VendorAssignedProductId="M3240WCGRBX" >
+            <Description>MAT 32X40 White Core Green Box</Description>
+            <UnitCost>2</UnitCost>
+            <Comments/>
+            <BoxCost>20</BoxCost>
+            <UnitsInBox>10</UnitsInBox>
+         </BoxedItem>
+         <BoxedItem VendorId="vendor0000000015"  Id="cat0000000012"  VendorAssignedProductId="WR116220FT" >
+            <Description>Wire 1/16in 200 Ft. Box 8</Description>
+            <UnitCost>16.875</UnitCost>
+            <Comments/>
+            <BoxCost>135</BoxCost>
+            <UnitsInBox>8</UnitsInBox>
+         </BoxedItem>
+      </BoxedItems>
+      <VolumeItems>
+         <VolumeItem VendorId="vendor0000000017"  Id="C0000000014"  VendorAssignedProductId="MLGLVT4IN" >
+            <Description>Moulding Gold Leaf VT Style  4in 8.00 Ft.</Description>
+            <UnitCost>10.50</UnitCost>
+            <Comments>This molding is quite fragile... as such store with special care.</Comments>
+            <MinimumVolume>10</MinimumVolume>
+            <UnitOfMeasure>Foot</UnitOfMeasure>
+         </VolumeItem>
+         <VolumeItem VendorId="vendor0000000035"  Id="C0000000018"  VendorAssignedProductId="MLGLVT6IN" >
+            <Description>Moulding Gold Leaf VT Style  6in 8.00 Ft.</Description>
+            <UnitCost>14.50</UnitCost>
+            <Comments/>
+            <MinimumVolume>10</MinimumVolume>
+            <UnitOfMeasure>Foot</UnitOfMeasure>
+         </VolumeItem>
+         <VolumeItem VendorId="vendor0000000048"  Id="cat0000000049"  VendorAssignedProductId="MLFLVT3IN" >
+            <Description>Moulding Gold Leaf VT Style 3IN</Description>
+            <UnitCost>4.50</UnitCost>
+            <Comments/>
+            <MinimumVolume>10</MinimumVolume>
+            <UnitOfMeasure>Foot</UnitOfMeasure>
+         </VolumeItem>
+         <VolumeItem VendorId="vendor0000000048"  Id="cat0000000051"  VendorAssignedProductId="MLFLVT3INkkhk" >
+            <Description>Moulding Gold Leaf VT Style 3IN</Description>
+            <UnitCost>4.50</UnitCost>
+            <Comments>fhjfghfhgfhfhg</Comments>
+            <MinimumVolume>10</MinimumVolume>
+            <UnitOfMeasure>Foot</UnitOfMeasure>
+         </VolumeItem>
+         <VolumeItem VendorId="vendor0000000057"  Id="cat0000000053"  VendorAssignedProductId="MLFLVT3IN" >
+            <Description>Moulding Gold Leaf VT Style 3IN</Description>
+            <UnitCost>4.50</UnitCost>
+            <Comments/>
+            <MinimumVolume>10</MinimumVolume>
+            <UnitOfMeasure>Foot</UnitOfMeasure>
+         </VolumeItem>
+         <VolumeItem VendorId="vendor0000000017"  Id="cat0000000055"  VendorAssignedProductId="MLGLVT4IN1" >
+            <Description>Moulding Gold Leaf VT Style  4in 8.00 Ft.</Description>
+            <UnitCost>10.50</UnitCost>
+            <Comments>This molding is quite fragile... as such store with special care.</Comments>
+            <MinimumVolume>10</MinimumVolume>
+            <UnitOfMeasure>Foot</UnitOfMeasure>
+         </VolumeItem>
+         <VolumeItem VendorId="vendor0000000017"  Id="cat0000000056"  VendorAssignedProductId="MLGLVT4IN13" >
+            <Description>Fernandos Item</Description>
+            <UnitCost>10.50</UnitCost>
+            <Comments>This molding is quite fragile... as such store with special care.</Comments>
+            <MinimumVolume>10</MinimumVolume>
+            <UnitOfMeasure>Foot</UnitOfMeasure>
+         </VolumeItem>
+      </VolumeItems>
+   </Catalog>
+   <Inventory>
+      <InventoryItems>
+         <InventoryItem Id="inv0000000019"  LocationId="loc0000000020"  CatalogItemId="cat0000000005" >
+            <QtyOnHand>10</QtyOnHand>
+            <ReOrderPoint>30</ReOrderPoint>
+            <ReOrderQuantity>20</ReOrderQuantity>
+            <Comments/>
+         </InventoryItem>
+         <InventoryItem Id="inv0000000024"  LocationId="loc0000000021"  CatalogItemId="cat0000000003" >
+            <QtyOnHand>10</QtyOnHand>
+            <ReOrderPoint>20</ReOrderPoint>
+            <ReOrderQuantity>20</ReOrderQuantity>
+            <Comments/>
+         </InventoryItem>
+         <InventoryItem Id="inv0000000025"  LocationId="loc0000000026"  CatalogItemId="cat0000000007" >
+            <QtyOnHand>13</QtyOnHand>
+            <ReOrderPoint>25</ReOrderPoint>
+            <ReOrderQuantity>15</ReOrderQuantity>
+            <Comments>This wire must be store at the plaque shop due to temperaturs requirements and humidity problems in the frameshop</Comments>
+         </InventoryItem>
+         <InventoryItem Id="inv0000000027"  LocationId="loc0000000020"  CatalogItemId="cat0000000005" >
+            <QtyOnHand>11</QtyOnHand>
+            <ReOrderPoint>30</ReOrderPoint>
+            <ReOrderQuantity>20</ReOrderQuantity>
+            <Comments/>
+         </InventoryItem>
+         <InventoryItem Id="inv0000000028"  LocationId="loc0000000020"  CatalogItemId="cat0000000006" >
+            <QtyOnHand>12</QtyOnHand>
+            <ReOrderPoint>30</ReOrderPoint>
+            <ReOrderQuantity>20</ReOrderQuantity>
+            <Comments/>
+         </InventoryItem>
+         <InventoryItem Id="inv0000000029"  LocationId="loc0000000020"  CatalogItemId="cat0000000007" >
+            <QtyOnHand>4</QtyOnHand>
+            <ReOrderPoint>5</ReOrderPoint>
+            <ReOrderQuantity>5</ReOrderQuantity>
+            <Comments/>
+         </InventoryItem>
+         <InventoryItem Id="inv0000000030"  LocationId="loc0000000020"  CatalogItemId="cat0000000008" >
+            <QtyOnHand>2</QtyOnHand>
+            <ReOrderPoint>5</ReOrderPoint>
+            <ReOrderQuantity>5</ReOrderQuantity>
+            <Comments/>
+         </InventoryItem>
+         <InventoryItem Id="inv0000000031"  LocationId="loc0000000020"  CatalogItemId="cat0000000010" >
+            <QtyOnHand>200</QtyOnHand>
+            <ReOrderPoint>100</ReOrderPoint>
+            <ReOrderQuantity>200</ReOrderQuantity>
+            <Comments/>
+         </InventoryItem>
+         <InventoryItem Id="inv0000000032"  LocationId="loc0000000020"  CatalogItemId="cat0000000012" >
+            <QtyOnHand>312</QtyOnHand>
+            <ReOrderPoint>100</ReOrderPoint>
+            <ReOrderQuantity>200</ReOrderQuantity>
+            <Comments/>
+         </InventoryItem>
+         <InventoryItem Id="inv0000000033"  LocationId="loc0000000020"  CatalogItemId="cat0000000036" >
+            <QtyOnHand>256</QtyOnHand>
+            <ReOrderPoint>100</ReOrderPoint>
+            <ReOrderQuantity>200</ReOrderQuantity>
+            <Comments/>
+         </InventoryItem>
+         <InventoryItem Id="inv0000000034"  LocationId="loc0000000020"  CatalogItemId="cat0000000023" >
+            <QtyOnHand>213</QtyOnHand>
+            <ReOrderPoint>100</ReOrderPoint>
+            <ReOrderQuantity>200</ReOrderQuantity>
+            <Comments/>
+         </InventoryItem>
+         <InventoryItem Id="inv0000000037"  LocationId="loc0000000026"  CatalogItemId="cat0000000036" >
+            <QtyOnHand>12</QtyOnHand>
+            <ReOrderPoint>30</ReOrderPoint>
+            <ReOrderQuantity>20</ReOrderQuantity>
+            <Comments/>
+         </InventoryItem>
+         <InventoryItem Id="inv0000000050"  LocationId="loc0000000026"  CatalogItemId="cat0000000008" >
+            <QtyOnHand>14</QtyOnHand>
+            <ReOrderPoint>30</ReOrderPoint>
+            <ReOrderQuantity>20</ReOrderQuantity>
+            <Comments/>
+         </InventoryItem>
+      </InventoryItems>
+      <Locations>
+         <Location Id="loc0000000021" >
+            <Name>Store</Name>
+            <Description>Store Storage Room</Description>
+         </Location>
+         <Location Id="loc0000000020" >
+            <Name>Framing Storage</Name>
+            <Description>Warehose Storage</Description>
+         </Location>
+         <Location Id="loc0000000026" >
+            <Name>Plaque Shop</Name>
+            <Description>Plaque Shop Bldg 1</Description>
+         </Location>
+      </Locations>
+   </Inventory>
+   <Suppliers>
+      <Vendor Id="vendor0000000015" >
+         <Name>Larson Juhl </Name>
+         <PointOfContact>Jim Bowles</PointOfContact>
+         <PhoneNumber>254 383-3333</PhoneNumber>
+         <Comments>This is our primary vendor
+Second line
+This vendor is located withing state so shipping is faster</Comments>
+         <Addresses>
+            <Address>
+               <Street>123 Some St</Street>
+               <City>Dallas</City>
+               <State>TX</State>
+               <Zip>76223</Zip>
+            </Address>
+         </Addresses>
+      </Vendor>
+      <Vendor Id="vendor0000000016" >
+         <Name>James Artarama</Name>
+         <PointOfContact>John Smith</PointOfContact>
+         <PhoneNumber>254 384-4444</PhoneNumber>
+         <Comments/>
+         <Addresses>
+            <Address>
+               <Street>321 Elm Ave</Street>
+               <City>Austin</City>
+               <State>TX</State>
+               <Zip>76501</Zip>
+            </Address>
+         </Addresses>
+      </Vendor>
+      <Vendor Id="vendor0000000017" >
+         <Name>Frames and Things</Name>
+         <PointOfContact>Jon Jones</PointOfContact>
+         <PhoneNumber>512 333-5555</PhoneNumber>
+         <Comments/>
+         <Addresses>
+            <Address>
+               <Street>456 Sylvia St.</Street>
+               <City>El Paso</City>
+               <State>TX</State>
+               <Zip>76000</Zip>
+            </Address>
+         </Addresses>
+      </Vendor>
+      <Vendor Id="vendor0000000022" >
+         <Name>Larson Juhl Arizona</Name>
+         <PointOfContact>Jim Bowles</PointOfContact>
+         <PhoneNumber>254 383-3333</PhoneNumber>
+         <Comments/>
+         <Addresses>
+            <Address>
+               <Street>123 Some St</Street>
+               <City>Phoenix</City>
+               <State>AZ</State>
+               <Zip>76223</Zip>
+            </Address>
+         </Addresses>
+      </Vendor>
+      <Vendor Id="vendor0000000035" >
+         <Name>Temples Hobby Lobby</Name>
+         <PointOfContact>Todd Bridges</PointOfContact>
+         <PhoneNumber>254 771-1212</PhoneNumber>
+         <Comments/>
+         <Addresses>
+            <Address>
+               <Street>1234 General Bruce Drive</Street>
+               <City>Temple</City>
+               <State>TX</State>
+               <Zip>76502</Zip>
+            </Address>
+         </Addresses>
+      </Vendor>
+      <Vendor Id="vendor0000000048" >
+         <Name>Hobby Lobby Killeen Expressway</Name>
+         <PointOfContact>Bozo Clown</PointOfContact>
+         <PhoneNumber>254 679-1111</PhoneNumber>
+         <Comments/>
+         <Addresses>
+            <Address>
+               <Street>1234 Central Tx Expressway</Street>
+               <City>Killeen</City>
+               <State>TX</State>
+               <Zip>76542</Zip>
+            </Address>
+         </Addresses>
+      </Vendor>
+   </Suppliers>
+</ProductGraph>

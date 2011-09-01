@@ -1,0 +1,1 @@
+PicassoInventorySystem was developed using Visual Studio 2008 Profession with the .Net framework 3.5.

@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PicassosInventorySystem" GeneratedClassName="Inventory">
+  <Profiles />
+  <Settings>
+    <Setting Name="PrefixCatalog" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">cat</Value>
+    </Setting>
+    <Setting Name="PrefixVendor" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">vendor</Value>
+    </Setting>
+    <Setting Name="PrefixInventory" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">inv</Value>
+    </Setting>
+    <Setting Name="PrefixLocation" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">loc</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
